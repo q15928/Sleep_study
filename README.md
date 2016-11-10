@@ -1,4 +1,4 @@
-# Sleep_study
+# Sleep study - Detecting sleep for Insomniacs
 
 ### Introduction
 Insomnia is a common sleep disorder which affects the life quality of patients. Sleep staging is an importanct step for diagnosis and treatment of insomnia. The gold standard of sleep staging is based on the measurement of PSG recordings. However, applying wearable PSG in real-world scenarios is of limitation. In this project, we are going to investigate the alternative measurements including heart rate, skin temperature and actigraphy by applying machine learning methodologies to classify sleep-wake stages.
