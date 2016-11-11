@@ -10,5 +10,10 @@ The dataset is collected from about 70 insomnia patients who attended the sleep 
 * **Heart Rate**: The data is represented as beat-by-beat interval which each entry gives the time (in second, plus offset in millisecond) of a heart-beat and the duration since the previous beat.
 * **Actigraphy**: Actigraphy is recorded for the patient’s movement activity through a wrist-based accelerometer device (for example, Philips Actiwatch 2) at every 30s. 
 
+### Data Preparation
+Similar to any other data project, we follow the end to end process from data collection, data extraction, cleaning, and feature engineering. Then we go through the cycle of model building, model evaluation and model tuning. And finally is the prediction on the new data set.
+
+Like most of the real-world scenarios, the data is pretty mess. It is required to spend much time on data preparation. [A recent survey](http://www.forbes.com/sites/gilpress/2016/03/23/data-preparation-most-time-consuming-least-enjoyable-data-science-task-survey-says/) shows that data preparation is the most time consuming work. However, it paves the way to have better results if you have prepared the data precisely.
+
 ### Machine Learning Methods
-I use SVM, XGBoost for classifying sleep-wake stages. 10-fold cross-validation is applied to evaluate the model performance respectively.
+We use SVM, XGBoost for classifying sleep-wake stages. 10-fold cross-validation is applied to evaluate the model performance respectively.
