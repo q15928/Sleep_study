@@ -15,5 +15,7 @@ Similar to any other data project, we follow the end to end process from data co
 
 Like most of the real-world scenarios, the data is pretty mess. It is required to spend much time on data preparation. [A recent survey](http://www.forbes.com/sites/gilpress/2016/03/23/data-preparation-most-time-consuming-least-enjoyable-data-science-task-survey-says/) shows that data preparation is the most time consuming work. However, it paves the way to have better results if you have prepared the data precisely.
 
+Additionaly, we have to work with the challenges related with time-series data, such as measurements at different frequencies, irregular sampling times, etc..
+
 ### Machine Learning Methods
 We use SVM, XGBoost for classifying sleep-wake stages. 10-fold cross-validation is applied to evaluate the model performance respectively.
